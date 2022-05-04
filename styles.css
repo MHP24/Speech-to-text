@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/bg.png');
+    background-color: #121212;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    /* background-color: rgba(88, 5, 132, 0.386); */
+    height: 100vh;
+    padding: 1em;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+#title {
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Water Brush', cursive;
+}
+
+#group {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-family: 'Water Brush', cursive;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+#text {
+    padding: .5em;
+    resize: none;
+    width: 700px;
+    max-width: 90%;
+    min-height: 40%;
+    background-color: #1f1f1fa0;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    box-shadow:  #FFF 0px 0px 5px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #EDEDED;
+    font-weight: 600;
+    padding: .5em 2em;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    width: 150px;
+    border: none;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    gap: .2em;
+}
+
+.btn:hover {
+    transition: .3s;
+    background-color: rgb(189, 189, 189);
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
